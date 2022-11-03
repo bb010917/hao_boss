@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>pat竞赛</title>
+	</head>
+	<body>
+		<div>
+		<a href="../index1.html" title="上一页"><img src="../img/index2.jpg" height="45px"></a></div>
+		<p style="text-align: center;font-size: 35px;"><b>PAT甲级</b></p>
+		<h3><strong>前期准备&#xff1a;</strong></h3> 
+<p>编程语言首选C&#43;&#43;&#xff0c;要熟悉1-2个编译器&#xff0c;我用的是dev C&#43;&#43;&#xff0c;要注意不同考场提供的编译器不同&#xff0c;需要提前上官网了解好&#xff0c;比如浙大紫金港是这次是没有VS的&#xff0c;因此一般来说练dev或者code blocks比较保险。</p> 
+<p>辅助材料强烈推荐两本书&#xff1a;</p> 
+<ul><li>《算法笔记》&#xff08;胡凡、曾磊主编&#xff09;以及对应配套的《上机实战指南》</li><li>《王道论坛计算机考研机试指南》</li></ul>
+<p>第一本书又称晴神宝典&#xff0c;主要就是针对PAT编写的&#xff0c;对于没接触过ACM的人来说简直是相见恨晚&#xff0c;按照题型专题讲解&#xff0c;还给出各类题型的模板套路&#xff0c;以及常用STL的用法&#xff0c;能帮你节约大量时间。</p> 
+<p>第二本多年前就停更了&#xff0c;最新的13年的pdf版&#xff0c;不过机试也就那些东西&#xff0c;跟现在也区别不大。</p> 
+<p>接着是考点&#xff0c;总体来说经过训练后&#xff0c;甲级并不算难&#xff0c;很多东西已成了模板套路了。我们来看看要求&#xff08;节选自官网&#xff09;</p> 
+<p>乙级&#xff08;Basic Level&#xff09;&#xff1a;一句话概括&#xff0c;最难到排序</p> 
+<p><strong>甲级&#xff08;Advanced Level&#xff09;</strong>&#xff1a;在达到乙级要求的基础上&#xff0c;还要求&#xff1a;<br /> 1· 具有充分的<strong>英文阅读理解</strong>能力&#xff1b;<br /> 2· 理解并掌握基础数据结构&#xff0c;包括&#xff1a;<strong>线性表、树、图</strong>&#xff1b;<br /> 3· 理解并熟练编程实现经典高级算法&#xff0c;包括<strong>哈希映射、并查集、最短路径、拓扑排序、关键路径、贪心、深度优先搜索、广度优先搜索、回溯剪枝</strong>等&#xff1b;</p> 
+<h3><strong>备战要点&#xff1a;</strong></h3> 
+<p><strong>1.刷真题</strong>。最简单粗暴的方法&#xff0c;把官网上的真题库通刷一遍&#xff0c;150&#43;道题&#xff0c;一开始刷的可能会有点慢&#xff0c;一天3-4题&#xff0c;到后面熟练以后6-10题一天。另外&#xff0c;题库里前半部分里有些题是超纲的&#xff0c;发现特别难也不需要纠结。&#xff08;1069以后应该都是真题了&#xff09;</p> 
+<p style="text-align:center;"><img alt="" class="has" height="144" src="https://img-blog.csdnimg.cn/20191022154139224.png" width="672" /></p> 
+<p><strong>2.背模板。</strong>其实PAT考来考去也就那么几种类型的题&#xff0c;常用的算法和语法模板背一下&#xff0c;最重要的包括</p> 
+<ul><li>自定义 STL中的sort规则&#xff0c;知道如何给结构体数组排序</li><li>vector, stack, queue, map等库的常规用法</li><li>并查集及路径压缩</li><li>Dijkstra最短路径算法&#xff08;常规版&#43;DFS版&#xff09;</li><li>Hash表的查找模拟及hash冲突解决模拟</li><li>DFS&#xff0c;BFS</li><li>二叉树的遍历&#xff08;前中后序&#43;层序&#xff09;</li><li>二叉树的重建&#xff08;如根据前序&#43;中序&#xff09;</li><li>AVL树的判断&#xff08;树的构造能写更好&#xff0c;不过感觉略难&#xff0c;考的几率不大&#xff09;</li><li>数学类&#xff08;素数判断、最大公约数、质因子分解等&#xff09;</li></ul>
+<p>上述模板《算法笔记》里全都有&#xff0c;且配合例题讲的很清楚。</p> 
+<p><strong>3.整理题型。</strong>PAT甲级总共4道题&#xff0c;刷多了以后会发现题型设置上会呈现出一些规律。其中最简单的两道题就是对应乙级最难的两道题的英文版。我自己尝试总结了一下题型&#xff08;自己摸索的&#xff0c;不一定准确&#xff0c;只是大概如此&#xff09;</p> 
+<ol><li>第一题&#xff08;20分&#xff09;常考<strong>数学类、逻辑类</strong>题目。如涉及到素数、最大公约数&#xff0c;或者自己定义一个规则&#xff0c;让你求或者判断这种特定的数&#xff0c;编程难度低&#xff08;会写for循环就能做&#xff09;&#xff0c;需要认真读懂题目。建议过样例用时<strong>不超过25分钟</strong>。</li><li>第二题&#xff08;25分&#xff09;常考<strong>简单数据结构及应用</strong>。如栈、链表、哈希、结构体等&#xff0c;常见的是排序题&#xff0c;给出一堆数据&#xff0c;按要求排序&#xff08;链表题本质也是结构体的排序题&#xff09;。建议过样例用时<strong>不超过30分钟。</strong></li><li>第三题&#xff08;25分&#xff09;常考<strong>树或图</strong>。如二叉树的重建、并查集等套路题的变形&#xff0c;或者是给出一些经典树、图&#xff0c;让你判断&#xff08;红黑树、拓扑排序、欧拉图等&#xff09;&#xff0c;其实比较简单&#xff0c;别被吓到&#xff0c;根据定义来就行。建议过样例用时<strong>不超过30分钟。</strong></li><li>第四题&#xff08;30分&#xff09;常考<strong>树或图</strong>。如最短路径、最近公共祖先、堆的判断等。这类题目往往也不难&#xff0c;但一般代码量较大&#xff0c;很可能需要DFS及剪枝。建议过样例用时<strong>不超过1小时。</strong></li></ol>
+<p>我们看真题库里的最后三组题&#xff08;1144~1155&#xff09;来验证一下&#xff0c;发现规律大致如此</p> 
+<ul><li>20分题&#xff1a;1144简单数学逻辑&#xff1b;1148狼人杀逻辑题&#xff1b;1152素数题</li><li>25分题&#xff1a;1145Hash冲突题&#xff1b;1149map题&#xff1b;1153排序题&#xff1b;</li><li>25分题&#xff1a;1146拓扑排序简单判断&#xff1b;1150旅行商问题&#xff08;简单判断&#xff09;&#xff1b;1154图着色问题</li><li>30分题&#xff1a;1147堆的判断&#xff1b;1151最近公共祖先&#xff1b;1155堆的判断&#43;DFS</li></ul>
+<p>另外&#xff0c;上面建议的用时都是<strong>过样例的时间</strong>&#xff0c;不是完整AC的时间&#xff0c;毕竟PAT是按测试点给分&#xff0c;而我们的<strong>目标是尽可能地多得分</strong>&#xff0c;这时候做题策略就显得很重要&#xff1a;比如20分的题卡住了&#xff0c;可能需要花上30分钟才能拿满20分&#xff0c;但可能只需要花15分钟写一个不完美的代码就能拿16分&#xff0c;这时候就要果断放弃&#xff0c;及时转到下一题。当四道题都过了样例&#xff0c;起码有七八十分了&#xff0c;最后半个多小时再回头查漏补缺&#xff0c;争取上90甚至满分。一般来说&#xff0c;不管是保研、考研还是就业&#xff0c;甲级90&#43;都是一个非常不错的成绩了。</p> 
+<p style="text-align: center;"><img src="../img/img1/zd1.jpg"/></p>
+<div style="height: 40px;
+                line-height: 40px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                background: #333;
+                color: #fff;
+                font-family: Arial;
+                font-size: 12px;
+                letter-spacing: 1px;">张凤豪---202052340120软件工程一班</div>
+</body>
+</html>

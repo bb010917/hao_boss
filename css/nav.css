@@ -1,0 +1,54 @@
+body,ul,ol,dl,dt,dd,li,p,h1,h2,h3,h4,h5,h6,form,label,fieldset,img,div,th{
+border:0;margin:0px; padding:0;}
+table,td{margin:0px; padding:0;}
+li,dd,dl,dt {list-style-type:none;}
+
+a:link { color: #555; text-decoration: none; }
+a:visited { color: #555; text-decoration: none; }
+a:hover { color:#154c89; text-decoration: none; }
+a:active { color: #555; text-decoration: none; }
+
+
+.languaNavTop{background-color: #0634A3; repeat-x #eeeeee;}
+.languaNavTop ul{width:1000px;margin:0 auto;height:51px;background:url(../images/language_15.gif) no-repeat left;padding-left:2px;}
+.languaNavTop ul li{float:left;background:url(../images/language_15.gif) no-repeat right;padding-right:3px;}
+.languaNavTop ul li a{color:#FFF;float:left;line-height:48px;font-size:16px;padding:0 22px;margin-top:3px;}
+.languaNavTop ul li.cur a{background:url(../images/bg_04.gif) repeat-x; color:#042c59;}
+.languaNavTop ul li a.cur{background:url(../images/bg_04.gif) repeat-x; color:#042c59;}
+
+
+.languaBottom{height:0px; overflow:hidden; background:url(../images/bg_05.gif) repeat-x;position:relative}
+.languaNavTop ul#nav{position:relative;left:1000px;background:none;}
+.languaNavTop #nav li{float:left;width:1000px;padding:0;background:none;line-height:24px;color:#333; font-weight:bold;text-align:center}
+.languaNavTop #nav li a{color:#333;line-height:45px;padding:0 15px 0  0px;float:none; font-weight:100; font-size:16px;}
+.languaNavTop #nav li div#xykg_lj a{color:#333;line-height:45px;padding:0 55px 0  0px;float:none; font-weight:100; font-size:16px;}
+.navBo{float:left;width:90px;height:112px;margin:15px 0 15px 0; background:none;}
+.line1{ border-right:1px solid #ccc;}
+.languaNavTop #navBo{ float:left; height:110px; margin:0px 10px 15px 10px; background:none; }
+.languaNavTop #navBo h4{ font-size:14px; font-weight:bold; line-height:24px; text-align:left; margin-bottom:10px;background:none; }
+.languaNavTop #navBo li{ width:100px; float:left; background:none; text-align:left; line-height:24px; background:url(../images/language_ico.png) -505px -194px no-repeat; padding-left:10px; }
+.languaNavTop #navBo li a{ font-size:12px; }
+
+
+.languaNavTop #navBo1{ float:left; height:110px; margin:0px 5px 15px 5px; background:none; }
+.languaNavTop #navBo1 h4{ font-size:14px; font-weight:bold; line-height:30px; text-align:left; margin-bottom:10px; }
+.languaNavTop #navBo1 li{ width:70px; float:left; background:none; text-align:left; line-height:35px; background:url(../images/language_ico.png) -505px -188px no-repeat; padding-left:10px; }
+.languaNavTop #navBo1 li a{ font-size:12px; }
+
+.languaNavTop #navBo2{ float:left; height:110px; margin:0px 5px 15px 5px; background:none; }
+.languaNavTop #navBo2 h4{ font-size:14px; font-weight:bold; line-height:24px; text-align:left; margin-bottom:10px; }
+.languaNavTop #navBo2 li{ width:70px; float:left; background:none; text-align:left; line-height:24px; background:url(../images/language_ico.png) -505px -194px no-repeat; padding-left:10px; }
+.languaNavTop #navBo2 li a{ font-size:12px; }
+
+
+.languaNavTop #navBo3{ float:left; height:228px; background:none; }
+.languaNavTop #navBo3 h4{ font-size:14px; font-weight:bold; text-align:left; padding-left:0px;}
+.languaNavTop #navBo3 li{ width:170px; float:left; background:none; text-align:left; background:url(../images/language_ico.png) -505px -194px no-repeat; padding-left:10px; }
+.languaNavTop #navBo3 li a{ font-size:12px; }
+
+.home{ width:60px; overflow:hidden; }
+.m_h_ico{ width:60px; height:48px; background:url(../images/language_ico.png) -291px -48px no-repeat; display:block; }
+.navyy{width:100%; height:0px; background:url(../images/bgyy01.png) repeat-x; position:relative; top:4px; z-index:999; overflow:hidden; }
+
+
+*::selection { background:#2461A2;color:#fff; }

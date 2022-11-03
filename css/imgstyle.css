@@ -1,0 +1,368 @@
+*{
+padding:0;
+margin:0;
+ list-style:none; 
+}
+img{
+border:none;
+}
+body{
+font-size:12px;
+font-family: Microsoft YaHei,Tahoma,sans-serif;
+}
+a{
+ text-decoration: none;
+}
+.clear{
+ clear: both;
+}
+ul,li {
+ margin:0px; padding:0px; list-style:none; 
+ }
+h4.bt{
+ height:65px;
+ line-height:65px;
+ font-size: 14px;
+ font-weight: normal;
+ border-top: 2px solid #0634A3;
+ padding:0 0 0 35px;
+}
+h4.bt em{
+ font-style: normal;
+ font-size: 14px;
+ float: right;
+ margin:0 5px 0 0;
+}
+.zj{
+ width: 98%;
+ margin: 0 auto;
+ padding:5px 0;
+ margin-top:10px;
+}
+h4.bt em a{
+ font-size: 14px;
+ color: #f1b000;
+}
+.top_wrap{
+ width:100%;
+ height:40px;
+ background:url(toutm.png) repeat-x;
+}
+.top{
+ width:1000px;
+ height:40px;
+ line-height:40px;
+ margin:0 auto;
+ color:#B2A8A9;
+}
+.top_l{
+ width:500px;
+ height:40px;
+ line-height:40px;
+ float:left;
+}
+.top_2{
+ height:30px;
+ line-height:30px;
+ float:left;
+}
+.top_r{
+ width:350px;
+ height:40px;
+ line-height:40px;
+ float:right;
+}
+.logo_wrap{
+ width:100%;
+ height:118px;
+ background:url(logo_bg.jpg) repeat-x;
+}
+.logo{
+ width:1000px;
+ height:118px;
+ margin:0 auto;
+ color:#B2A8A9;
+ background:url(logo.jpg) no-repeat center center;
+}
+.logo h1 a{
+ height:118px;
+ width:260px;
+ display:block;
+ text-indent:-99999px;
+}
+.nav_wrap{
+ width:100%;
+ height:51px;
+ background:url(nav_bg.jpg) repeat-x;
+}
+.nav{
+ width:1000px;
+ height:51px;
+ line-height:51px;
+ color:#fff;
+ margin:0 auto;
+}
+.banner_wrap{
+ width:100%;
+ border-top:1px solid #ccc;
+ margin-top:3px;
+ height:430px;
+ z-index:999;
+}
+.banner img{
+}
+.sj_warp{
+ width:100%;
+ height:55px;
+ line-height:55px;
+ position:relative;
+ top:-55px;
+ left:0;
+ background:rgba(200, 199, 199, 0.8) none repeat scroll 0 0 !important;
+ filter:Alpha(opacity=80); background:#c8c7c7
+}
+.sj{
+ width:960px;
+ margin:0 auto;
+ padding:0 20px;
+}
+.sj_l{
+ width:400px;
+ padding-left:40px;
+ background:url(sjtb.png) no-repeat  0 center ;
+ float:left;
+}
+.sj_r{
+ width:380px;
+ float:right;
+}
+.content1_wrap{
+ width:100%;
+ height:880px;
+}
+.content1{
+ width:1000px;
+ height:700px;
+ margin:0 auto;
+}
+.content1_l{
+ width:650px;
+ height:620px;
+ float:left;
+}
+.content1_l h4.bt{
+ background:url(xyxw_t.jpg) no-repeat left center; 
+}
+.tdxw{
+ height:200px;
+ padding:10px 0;
+}
+.xxxw{
+ height:200px;
+}
+.content1_r{
+ width:310px;
+ height:800px;
+ float:right;
+}
+.content1_r h4.bt{
+ background:url(tzgg_t.jpg) no-repeat left center; 
+}
+.links_wrap{
+ width:100%;
+ background:#FBFBFB;
+}
+.links{
+}
+.links_1{
+ background:url(kssy.jpg) center 30px no-repeat;
+ padding:90px 0 0 0;
+  width:1000px;
+ margin:0 auto;
+}
+.links_1 h5,.links_2 h5{
+ font-size:16px;
+ line-height:35px;
+ height:35px;
+ font-weight:normal;
+ padding-left:15px;
+}
+.links_2{
+ width:100%;
+ height:120px;
+}
+.bottom_wrap{
+ height:105px;
+ width:100%;
+ background:#2461A2 url(bqbg.jpg) no-repeat 50% 50%;
+ padding:50px 0 0 0;
+}
+.bottom{
+ height:110px;
+ width:1000px;
+ margin:0 auto;
+}
+.bottom p{
+ line-height:35px;
+ height:35px;
+ color:#6699cc;
+ text-align:left;
+font-size:14px;
+}
+.bottom p a{
+ color:#6699cc;
+font-size:14px;
+}
+.conent_list{
+ width:1010px;
+ margin:0 auto;
+ padding-top:20px;
+}
+.conent_list_l{
+ float:left;
+ width:250px;
+ height:250px;
+ border: 1px solid #CCC;
+}
+.conent_list_r{
+ float:right;
+ width:730px;
+ background: url(list-yy.png) repeat-y;
+}
+#x-news1-top {
+ width:400px; height50px;line-height:50px; overflow:hidden; 
+ background:url(zsxx_bg_h50.jpg) repeat-x;
+ }
+#x-news1-top ul li {
+ width:133px; float:left; font-family:"Microsoft YaHei"; color:#000; height: 50px;
+line-height: 50px;
+font-size: 14px;text-align:center; 
+ }
+#x-news1-top ul li.sige
+{ 
+ width:133px; 
+ height: 50px;
+ line-height: 50px;
+ background:url(zsxx_line.jpg) 100% 0 no-repeat;
+font-size: 14px;  float:left; 
+}
+#x-news1-top ul li.sige a
+{
+ width:133px; 
+ height: 50px;
+ line-height: 50px; 
+  text-align:center; float:left; font-size:16px; color:#fff;
+}
+#x-news1-top ul li.sigehs
+{ 
+ width:133px; 
+ height: 50px;
+line-height: 50px;
+ float:left; 
+ background:url(zsxx_hover.jpg) repeat-x;
+
+ 
+}
+#x-news1-top ul li.sigehs a
+{
+ width:134px; 
+ height: 50px;
+ line-height: 50px; 
+  text-align:center;  float:left; font-size:16px; color:#fff; 
+}
+.sigenr .zj{
+ width:375px;
+
+ height:250px;
+ color:#fff;
+}
+.sigenr{
+ border:1px solid #2e69ab;
+ height:311px;
+ width:398px;
+ border-bottom:none;
+
+}
+.sigenr p{
+ text-align:right;
+ height:41px;
+ line-height:41px;
+ background:#144984;
+
+}
+.sigenr p a{
+ text-align:right;
+ font-size: 12px;
+ color: #F1B000;
+ margin-right:10px;
+}
+#x-news1-n01 {
+width:398px;
+background:#144984;  
+height:311px;display:block; position:relative;
+ }
+#x-news1-n02 {
+background:#144984; 
+ display:none; position:relative;
+ }
+
+
+#x-news-n-wz {
+ overflow:hidden;
+ }
+
+.banner ul{ position:absolute;}
+.banner ul li{ height:420px; float:left;}
+
+.nume{ width:100%; position:absolute; line-height:5px; font-size:1px; left:0; bottom:20px; height:5px; text-align:center;}
+.nume ul li{ width:5px; height:5px;  display:inline; background:#fff; margin: 0 5px; padding:3px 5px; color:#fff; border:solid 1px #fff; cursor:pointer;}
+.nume ul li.navOn{ background:#ccc; color:#ccc;}
+ .example-animation {
+        color: #FFF;
+        font-size: 60px;}
+.content_l{
+    width:1000px;
+    margin:0 auto;
+margin-top:15px;
+}
+.content_l_l{
+    float:left;
+    width:195px;
+overflow: hidden;
+background: #2461A2;
+float: left;
+border-top: 6px solid #F6AB00;
+
+}   
+.content_l_l h4,.content_l_r h4{
+width: 195px;
+height: 52px;
+background: url(nryxian.png) no-repeat bottom center;
+font-size: 18px;
+color: #FFF;
+padding-left: 20px;
+line-height: 50px;
+}
+.content_l_r{
+    float:left;
+width: 725px;
+padding: 5px 30px 20px 30px;
+background:#fff;
+}   
+.content_l_r h4{
+width:100%;
+background:none;
+height: 55px;
+border-bottom: 3px solid #1E93CA;
+margin: 0 auto;
+line-height: 55px;
+}
+.content_l_r h4 span{
+
+}
+.content_l_r h4 em{
+    float:right;
+    padding:0 10px 0 0 ;}    
+.tplb td {
+    padding-bottom: 10px;
+}
